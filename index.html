@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <button id="btn-start">Bắt đầu</button>
+            <button id="btn-end">Ket thuc</button>
+        </div>
+
+        <div class="main">
+            <div id="wrap-per" class="wrap-per">
+                <div id="title-1" class="tile">1</div>
+                <div id="title-2" class="tile">2</div>
+                <div id="title-3" class="tile">3</div>
+                <div id="title-4" class="tile">4</div>
+
+                <div id="title-5" class="tile">5</div>
+                <div id="title-6" class="tile">6</div>
+                <div id="title-7" class="tile">7</div>
+                <div id="title-8" class="tile">8</div>
+
+                <div id="title-9" class="tile">9</div>
+                <div id="title-10" class="tile">10</div>
+                <div id="title-11" class="tile">11</div>
+                <div id="title-12" class="tile empty"></div>
+            </div>
+
+
+            <div class="time-instruct">
+                <div class="time">
+                    <h2>Dong ho</h2>
+                    <h1 id="count-time">00:00</h1>
+                </div>
+
+                <div class="instruct">
+                    <h3>Huong dan choi</h3>
+                    <div class="chu">
+                        <div></div>
+                        <div><i class="bi bi-arrow-up"></i></div>
+                        <div></div>
+                        <div><i class="bi bi-arrow-left"></i></div>
+                        <div><i class="bi bi-arrow-down"></i></div>
+                        <div><i class="bi bi-arrow-right"></i></div>
+                    </div>
+                    <div class="chu">
+                        <div></div>
+                        <div>W</div>
+                        <div></div>
+                        <div>A</div>
+                        <div>S</div>
+                        <div>D</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="history">
+            <h1>Lich su choi</h1>
+            <div class="tbl-history">
+                <div class="title-history">
+                    <h1>#</h1>
+                    <h1>Buoc di</h1>
+                    <h1>Thoi gian</h1>
+                </div>
+                <div class="listTurn">
+                    <div id="historyStepAndTime">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="win">YOU WIN</div>
+</body>
+
+</html>
+<script src="main.js"></script>
+<script src="time.js"></script>
+<script src="addHistory.js"></script>
+<!-- <script src="swapTitle.js"></script> -->
